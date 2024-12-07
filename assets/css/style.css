@@ -231,3 +231,21 @@ background-size: cover;
 .img-position>div>.fa-hand-pointer:hover{
 background-color: #f8bf0d;
 }
+/* FOOTER */
+footer{
+    background-color: #f8bf0d;
+}
+footer .title>p>span{color: #fff;}
+footer form>div>input,footer form>textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 20px;
+    margin: 0px 10px 20px 0px;
+    outline: none;
+    transition: border-bottom 2s;
+}
+footer form>div{
+    display: flex;
+    flex-flow: row nowrap;
+}
