@@ -165,21 +165,69 @@ text-align: left;
 .consulting-box1:hover button{background-color: #dc3748;color: #fff;}
 
 /* HOW CAN WE HELP YOU */
-.box1{
+.box{
     padding: 20px;
-    border-left: 8px solid gray;
+    border-left: 8px solid grey;
     transition: 1s;
 }
 .box:hover{
     background-color: #fff;
     border-left: 8px solid #dc3748;
-    box-shadow: 0 3px 6px rgb(0,0,0, 0.16) 0 3px 6px rgba(0,0,0,0.16)
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
-.box:hover{
-    color: #f8bf0d;
-}
+.box:hover h1{color: #f8bf0d;}
 .how-can-we-help-you>img{
     width: 100%;
     height: 355px;
     margin-bottom: 20px;
+}
+
+/* BRAND WE HAVE CRAFTED SO FAR */
+.img-box1{
+    background: url(../images/image1.jpg);
+    
+}
+.img-box2{
+    background: url(../images/image2.jpg);
+    
+}
+.img-box3{
+    background: url(../images/image3.jpg);
+    
+}
+.img-box4{
+    background: url(../images/banner1.jpg);
+    
+}
+.img-box5{
+    background: url(../images/banner2.jpg);
+    
+}
+.img-position{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    transition: 1s;
+}
+.img-position:hover{
+background: linear-gradient((rgba(220,55,72,0.8)),rgba(244,192,12,0.8),url(../images/ceo.jpg));
+background-size: cover;
+}
+.img-position>div>.fa-hand-pointer{
+    background-color:#dc3748;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+}
+.img-position>div>.fa-hand-pointer:hover{
+background-color: #f8bf0d;
 }
